@@ -45,9 +45,9 @@ if st.button("Classify Genre"):
     if movie_name:
         # Fetch comments from Reddit
         reddit = praw.Reddit(
-            client_id="dLEFJwcRr6T2lMwiVGg2cw",  # Replace with your client ID
-            client_secret="Qdcs7jRsujwBFSUMweTWf8ydqRb-Kw",  # Replace with your client secret
-            user_agent="windows:MovieGenreClassifier:v1.0 (by /u/New-Joke-8982)"  # Replace with your user agent
+            client_id="client_ID",  # Replace with your client ID
+            client_secret="client_secret",  # Replace with your client secret
+            user_agent="Yoour_user_agent"  # Replace with your user agent
         )
 
         subreddit = reddit.subreddit("all")  # Use "all" subreddit for more comments

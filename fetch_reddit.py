@@ -17,9 +17,9 @@ def preprocess_text(text):
 
 # Replace with your credentials
 reddit = praw.Reddit(
-    client_id="dLEFJwcRr6T2lMwiVGg2cw",  # Replace with your client ID
-    client_secret="Qdcs7jRsujwBFSUMweTWf8ydqRb-Kw",  # Replace with your client secret
-    user_agent="<platform>:<app_name>:<version> (by /u/New-Joke-8982)"  # Replace with your user agent
+    client_id="client_id",  # Replace with your client ID
+    client_secret="client_secret",  # Replace with your client secret
+    user_agent="user_agent"  # Replace with your user agent
 )
 
 # Fetch comments from r/movies

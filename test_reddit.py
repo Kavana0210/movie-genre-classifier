@@ -1,9 +1,9 @@
 import praw
 
 reddit = praw.Reddit(
-    client_id="dLEFJwcRr6T2lMwiVGg2cw",  # Replace with your client ID
-    client_secret="Qdcs7jRsujwBFSUMweTWf8ydqRb-Kw",  # Replace with your client secret
-    user_agent="windows:MovieGenreClassifier:v1.0 (by /u/New-Joke-8982)"  # Replace with your user agent
+    client_id="client_id",  # Replace with your client ID
+    client_secret="client_secret",  # Replace with your client secret
+    user_agent="your_user_agent"  # Replace with your user agent
 )
 
 # Test fetching a submission
